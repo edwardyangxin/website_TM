@@ -23,13 +23,16 @@
 }
 .nav-ul{
     height: 45px;
-    line-height:45px;
-    margin-bottom:0px !important;
-    margin-left: 122px;
+    width: 100%;
+    padding: 0;
+    line-height: 45px;
+    margin-bottom: 0px !important;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .nav-ul li{
     float: left;
-    margin-left: 76px;
     list-style: none;
 }
 .nav-ul .a-hover:hover{

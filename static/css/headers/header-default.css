@@ -71,7 +71,8 @@
     margin-left: 21px;
 }
 .header a{
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #333;
 }
 .header{
     min-width: 1200px;
@@ -193,7 +194,8 @@
 /*Navbar*/
 .header {
     z-index: 99;
-    background: #03a3c7;
+    /* background: #03a3c7; */
+    background: #fff;
     position: relative;
     border-bottom: solid 2px #eee;
     height: 45px;
